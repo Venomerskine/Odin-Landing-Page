@@ -6,6 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 #header{
@@ -126,3 +127,43 @@ ul{
     margin-left: auto;
 }
 
+#sign{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blue{
+    background-color: #3882F6;
+    color: white;
+    width: 70%;
+    border-radius: 4px;
+    display: flex;
+    padding: 25px;
+}
+
+.btn{
+    display: flex;
+    margin-left: auto;
+    padding-right: 20px;
+}
+.blue button{
+    margin-left: auto;
+    background-color: #3882F6;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0px 15px 0px 15px;
+}
+
+#footer{
+    background-color: #1F2936;
+    margin-top: auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    
+}
